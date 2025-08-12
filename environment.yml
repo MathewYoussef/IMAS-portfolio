@@ -1,0 +1,15 @@
+name: imas
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - xarray
+  - netcdf4
+  - dask
+  - matplotlib
+  - scikit-learn
+  - geopandas
+  - rasterio
+  - pyproj
+  - pip
