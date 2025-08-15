@@ -1,0 +1,11 @@
+# Python cruft
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+
+# OS/editor
+.DS_Store
+
+# Local scratch files (unpublish for now)
+catalog.csv
