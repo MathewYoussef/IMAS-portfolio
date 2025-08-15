@@ -1,0 +1,6 @@
+__pycache__/
+*.png
+*.pdf
+*.log
+norm_out/*_smoothed_*.csv
+norm_out/nostoc_CR_smoothed_OPT.csv
