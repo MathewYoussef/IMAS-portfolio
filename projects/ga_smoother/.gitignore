@@ -4,3 +4,6 @@ __pycache__/
 *.log
 norm_out/*_smoothed_*.csv
 norm_out/nostoc_CR_smoothed_OPT.csv
+
+# Runtime artifacts
+norm_out/GA_smoother_best.json
