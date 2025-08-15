@@ -3,30 +3,30 @@
 Genetic search across smoothing families (Savitzky-Golay, median, moving average, wavelet denoising) to pick parameters that maximize SNR and minimize CV in a UV-A band (310–410 nm). Built on cyanobacteria/Nostoc spectra; windows adapt to your wavelength grid.
 
 ## Install
-\`\`\`bash
+```bash
 python -m pip install -r projects/ga_smoother/requirements.txt
-\`\`\`
+```
 
 ## Run (your data)
 Your experiment folder must contain a subfolder `norm_out/` with CSVs like `*_CR.csv` or `*_norm*.csv`.
 
-\`\`\`bash
+```bash
 GA_SMOOTHER_DATA_DIR="/path/to/your/experiment" \
 python projects/ga_smoother/run_and_describe.py
-\`\`\`
+```
 
 ## Try the bundled demo
-\`\`\`bash
+```bash
 GA_SMOOTHER_DATA_DIR="projects/ga_smoother/demo" \
 python projects/ga_smoother/run_and_describe.py
-\`\`\`
+```
 
 ## Decode only (skip GA; provide a genome)
-\`\`\`bash
+```bash
 GA_SMOOTHER_DATA_DIR="." \
 GA_SMOOTHER_DECODE_ONLY='[0,3,5,1,4,1]' \
 python projects/ga_smoother/run_and_describe.py
-\`\`\`
+```
 
 ## Outputs
 - norm_out/nostoc_CR_smoothed_OPT.csv — best smoothed set
