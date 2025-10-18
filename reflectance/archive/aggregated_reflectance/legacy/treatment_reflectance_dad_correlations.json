@@ -1,0 +1,110 @@
+{
+  "mean_reflectance vs dad_total_mg_per_gDW_mean_trimmed": {
+    "pearson_r": -0.2916134295359407,
+    "pearson_p": 0.5749790243044186,
+    "spearman_rho": -0.14285714285714288,
+    "spearman_p": 0.7871720116618075
+  },
+  "median_reflectance vs dad_total_mg_per_gDW_mean_trimmed": {
+    "pearson_r": -0.2814313365353232,
+    "pearson_p": 0.5889981823039727,
+    "spearman_rho": -0.14285714285714288,
+    "spearman_p": 0.7871720116618075
+  },
+  "area_reflectance vs dad_total_mg_per_gDW_mean_trimmed": {
+    "pearson_r": -0.2916134295359407,
+    "pearson_p": 0.5749790243044186,
+    "spearman_rho": -0.14285714285714288,
+    "spearman_p": 0.7871720116618075
+  },
+  "min_reflectance vs dad_total_mg_per_gDW_mean_trimmed": {
+    "pearson_r": -0.4747670140410537,
+    "pearson_p": 0.3413566039228658,
+    "spearman_rho": -0.2571428571428572,
+    "spearman_p": 0.6227871720116618
+  },
+  "max_reflectance vs dad_total_mg_per_gDW_mean_trimmed": {
+    "pearson_r": -0.19986481967031575,
+    "pearson_p": 0.7041946651556268,
+    "spearman_rho": 0.08571428571428573,
+    "spearman_p": 0.8717434402332361
+  },
+  "range_reflectance vs dad_total_mg_per_gDW_mean_trimmed": {
+    "pearson_r": 0.29755791015407773,
+    "pearson_p": 0.5668361290688797,
+    "spearman_rho": 0.3714285714285715,
+    "spearman_p": 0.46847813411078715
+  },
+  "mean_reflectance vs dad_oxidized_mg_per_gDW_mean_trimmed": {
+    "pearson_r": -0.37270237293569,
+    "pearson_p": 0.4668319358110932,
+    "spearman_rho": -0.5428571428571429,
+    "spearman_p": 0.26570262390670557
+  },
+  "median_reflectance vs dad_oxidized_mg_per_gDW_mean_trimmed": {
+    "pearson_r": -0.3640673368152108,
+    "pearson_p": 0.47802665204103745,
+    "spearman_rho": -0.5428571428571429,
+    "spearman_p": 0.26570262390670557
+  },
+  "area_reflectance vs dad_oxidized_mg_per_gDW_mean_trimmed": {
+    "pearson_r": -0.37270237293569003,
+    "pearson_p": 0.4668319358110932,
+    "spearman_rho": -0.5428571428571429,
+    "spearman_p": 0.26570262390670557
+  },
+  "min_reflectance vs dad_oxidized_mg_per_gDW_mean_trimmed": {
+    "pearson_r": -0.5393024243578781,
+    "pearson_p": 0.2694736378631334,
+    "spearman_rho": -0.6,
+    "spearman_p": 0.20799999999999982
+  },
+  "max_reflectance vs dad_oxidized_mg_per_gDW_mean_trimmed": {
+    "pearson_r": -0.28142054232296004,
+    "pearson_p": 0.5890130912610313,
+    "spearman_rho": -0.3714285714285715,
+    "spearman_p": 0.46847813411078715
+  },
+  "range_reflectance vs dad_oxidized_mg_per_gDW_mean_trimmed": {
+    "pearson_r": 0.20420673514516588,
+    "pearson_p": 0.6979476475996333,
+    "spearman_rho": -0.08571428571428573,
+    "spearman_p": 0.8717434402332361
+  },
+  "mean_reflectance vs dad_reduced_mg_per_gDW_mean_trimmed": {
+    "pearson_r": -0.07885112632696856,
+    "pearson_p": 0.8819684389533665,
+    "spearman_rho": 0.14285714285714288,
+    "spearman_p": 0.7871720116618075
+  },
+  "median_reflectance vs dad_reduced_mg_per_gDW_mean_trimmed": {
+    "pearson_r": -0.06959464018446017,
+    "pearson_p": 0.8957765775486026,
+    "spearman_rho": 0.14285714285714288,
+    "spearman_p": 0.7871720116618075
+  },
+  "area_reflectance vs dad_reduced_mg_per_gDW_mean_trimmed": {
+    "pearson_r": -0.07885112632696858,
+    "pearson_p": 0.8819684389533665,
+    "spearman_rho": 0.14285714285714288,
+    "spearman_p": 0.7871720116618075
+  },
+  "min_reflectance vs dad_reduced_mg_per_gDW_mean_trimmed": {
+    "pearson_r": -0.25221991319101805,
+    "pearson_p": 0.6296926005504789,
+    "spearman_rho": -0.14285714285714288,
+    "spearman_p": 0.7871720116618075
+  },
+  "max_reflectance vs dad_reduced_mg_per_gDW_mean_trimmed": {
+    "pearson_r": -0.0006040168551756653,
+    "pearson_p": 0.99909397482742,
+    "spearman_rho": 0.2,
+    "spearman_p": 0.704
+  },
+  "range_reflectance vs dad_reduced_mg_per_gDW_mean_trimmed": {
+    "pearson_r": 0.4177978515163063,
+    "pearson_p": 0.4097675840556468,
+    "spearman_rho": 0.4285714285714286,
+    "spearman_p": 0.3965014577259474
+  }
+}

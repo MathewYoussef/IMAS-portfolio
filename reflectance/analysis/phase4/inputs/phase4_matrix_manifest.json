@@ -1,0 +1,167 @@
+{
+  "cache_path": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase4/inputs/phase4_data_cache.pkl",
+  "settings": {
+    "permutations_default": 10000,
+    "random_seed_default": 42
+  },
+  "windows": {
+    "320_480nm": {
+      "dose_order": [
+        "dose_1",
+        "dose_2",
+        "dose_3",
+        "dose_4",
+        "dose_5",
+        "dose_6"
+      ],
+      "dose_metadata": [
+        {
+          "dose_id": "dose_1",
+          "uva_mw_cm2": 0.0,
+          "uvb_mw_cm2": 0.0
+        },
+        {
+          "dose_id": "dose_2",
+          "uva_mw_cm2": 0.647,
+          "uvb_mw_cm2": 0.246
+        },
+        {
+          "dose_id": "dose_3",
+          "uva_mw_cm2": 1.095,
+          "uvb_mw_cm2": 0.338
+        },
+        {
+          "dose_id": "dose_4",
+          "uva_mw_cm2": 1.692,
+          "uvb_mw_cm2": 0.584
+        },
+        {
+          "dose_id": "dose_5",
+          "uva_mw_cm2": 2.488,
+          "uvb_mw_cm2": 0.768
+        },
+        {
+          "dose_id": "dose_6",
+          "uva_mw_cm2": 3.185,
+          "uvb_mw_cm2": 0.707
+        }
+      ],
+      "reflectance": {
+        "Sigma": {
+          "columns": [
+            "mean_reflectance",
+            "median_reflectance",
+            "min_reflectance",
+            "max_reflectance",
+            "range_reflectance",
+            "area_reflectance",
+            "mean_std",
+            "median_std",
+            "mean_mad",
+            "median_mad"
+          ],
+          "shape": [
+            6,
+            10
+          ],
+          "zero_variance_columns": []
+        },
+        "Delta": {
+          "columns": [
+            "mean_reflectance",
+            "median_reflectance",
+            "min_reflectance",
+            "max_reflectance",
+            "range_reflectance",
+            "area_reflectance",
+            "mean_std",
+            "median_std",
+            "mean_mad",
+            "median_mad"
+          ],
+          "shape": [
+            6,
+            10
+          ],
+          "zero_variance_columns": []
+        },
+        "12Oclock": {
+          "columns": [
+            "mean_reflectance",
+            "median_reflectance",
+            "min_reflectance",
+            "max_reflectance",
+            "range_reflectance",
+            "area_reflectance",
+            "mean_std",
+            "median_std",
+            "mean_mad",
+            "median_mad"
+          ],
+          "shape": [
+            6,
+            10
+          ],
+          "zero_variance_columns": []
+        },
+        "6Oclock": {
+          "columns": [
+            "mean_reflectance",
+            "median_reflectance",
+            "min_reflectance",
+            "max_reflectance",
+            "range_reflectance",
+            "area_reflectance",
+            "mean_std",
+            "median_std",
+            "mean_mad",
+            "median_mad"
+          ],
+          "shape": [
+            6,
+            10
+          ],
+          "zero_variance_columns": []
+        }
+      },
+      "concentration": {
+        "chrom": {
+          "columns": [
+            "chrom_total_mean",
+            "chrom_oxidized_mean",
+            "chrom_reduced_mean"
+          ],
+          "shape": [
+            6,
+            3
+          ],
+          "zero_variance_columns": []
+        },
+        "dad": {
+          "columns": [
+            "dad_total_mean",
+            "dad_oxidized_mean",
+            "dad_reduced_mean"
+          ],
+          "shape": [
+            6,
+            3
+          ],
+          "zero_variance_columns": []
+        },
+        "latent": {
+          "columns": [
+            "latent_total_mean",
+            "latent_oxidized_mean",
+            "latent_reduced_mean"
+          ],
+          "shape": [
+            6,
+            3
+          ],
+          "zero_variance_columns": []
+        }
+      }
+    }
+  }
+}

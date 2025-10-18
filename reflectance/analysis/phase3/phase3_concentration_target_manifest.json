@@ -1,0 +1,20 @@
+{
+  "phase3_manifest": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase3/phase3_data_manifest.json",
+  "feature_manifest": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase3/phase3_reflectance_feature_manifest.json",
+  "canonical_root": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/canonical_dataset",
+  "outputs": [
+    {
+      "window": {
+        "lower_nm": 320.0,
+        "upper_nm": 480.0,
+        "step_nm": 0.5,
+        "point_count": 321
+      },
+      "angles_csv": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase3/phase3_reflectance_features_angles_320_480nm.csv",
+      "composites_csv": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase3/phase3_reflectance_features_composites_320_480nm.csv",
+      "chrom_join": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase3/phase3_join_reflectance_chrom_320_480nm.csv",
+      "dad_join": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase3/phase3_join_reflectance_dad_320_480nm.csv",
+      "latent_join": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase3/phase3_join_reflectance_latent_320_480nm.csv"
+    }
+  ]
+}

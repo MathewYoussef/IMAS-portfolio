@@ -1,0 +1,10 @@
+{
+  "phase3_join_manifest": "analysis/phase3/phase3_concentration_target_manifest.json",
+  "diagnostics_manifest": "analysis/phase3/diagnostics/phase3_diagnostics_manifest.json",
+  "default_windows": [
+    "320_480nm"
+  ],
+  "default_permutations": 10000,
+  "random_seed": 42,
+  "notes": "Phase 4 analyses consume Phase 3 join tables and diagnostics; extend default_windows when new feature bands are generated."
+}

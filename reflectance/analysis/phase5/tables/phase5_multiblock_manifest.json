@@ -1,0 +1,22 @@
+{
+  "block_cache": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase5/inputs/phase5_block_cache.pkl",
+  "input_manifest": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase5/inputs/phase5_input_manifest.json",
+  "tables_dir": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase5/tables",
+  "plots_dir": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase5/plots",
+  "settings": {
+    "include_exploratory": false,
+    "joint_components": null,
+    "random_seed": 42
+  },
+  "outputs": {
+    "summary": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase5/tables/multiblock_summary.csv",
+    "scores": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase5/tables/multiblock_scores.csv",
+    "loadings": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase5/tables/multiblock_loadings.csv",
+    "plots": [
+      "multiblock_scores_320_480nm_chrom.png",
+      "multiblock_scores_320_480nm_dad.png",
+      "multiblock_scores_320_480nm_latent.png"
+    ]
+  },
+  "notes": "PLS approximation used; true O2PLS not available. Component counts capped by block ranks."
+}

@@ -1,0 +1,62 @@
+{
+  "snapshot": {
+    "source_root": "archive/aggregated_reflectance",
+    "upstream_reference": "../Initial_Calibration/stats_for_paper/robust_concentration_vs_dose_thesis_phase_2_results",
+    "captured_at": "2025-10-16T10:25:49Z",
+    "notes": "Phase-2 robust concentration vs dose table copied into archive/aggregated_reflectance/dose_summary.csv on rebuild; canonical dataset regenerated from that snapshot."
+  },
+  "files": [
+    {
+      "path": "canonical_dataset/dose_dad_concentrations.csv",
+      "sha256": "66f41a24da3e49ff0307f987539e2e83b95604556ebd4a42ec1a23fc3cd11478"
+    },
+    {
+      "path": "canonical_dataset/dose_level_canonical_summary.csv",
+      "sha256": "0807ea6b71667ecde9b5eb2ed4811dba7388b11e58412a2694f31f7dad38b4d8"
+    },
+    {
+      "path": "canonical_dataset/dose_reflectance_composites.csv",
+      "sha256": "02088851c0c60735b35d986d888e42bed6f72053b80139e34b3c46443434f9bf"
+    },
+    {
+      "path": "canonical_dataset/dose_reflectance_dad_summary.csv",
+      "sha256": "de68d4a1c151d65a32e79c7e23f801c82eb2a4dff509eaaef74e6cddbb147389"
+    },
+    {
+      "path": "canonical_dataset/dose_reflectance_features_angles.csv",
+      "sha256": "5975cd98215a3a67f3d059f507a7272f8aef2d2db2352d735d726166dccd3cc4"
+    },
+    {
+      "path": "canonical_dataset/dose_reflectance_features_composites.csv",
+      "sha256": "134a7a9bc3540cd299a3b6b39abe96adab1bb5aaca634e7df9a5901c0eeb8c7e"
+    },
+    {
+      "path": "canonical_dataset/dose_reflectance_stats.csv",
+      "sha256": "7d78de8865faa526d362b1b0ea4e0414a081697c2975a215996a1145bbd6c558"
+    },
+    {
+      "path": "canonical_dataset/dose_summary.csv",
+      "sha256": "b7f3c9d29bded6ec8bb84c282a85cd08897ece0ed8dff89e0aad1c223b12c259"
+    },
+    {
+      "path": "canonical_dataset/precision_weighted_concentrations_treatment.csv",
+      "sha256": "52f56cbba257d659dec6e7afc696912b2904e20f81a6bc2b37a151f44f40766c"
+    },
+    {
+      "path": "canonical_dataset/precision_weighted_concentrations.csv",
+      "sha256": "9547093b6ba45c157986eb699e42afdb437ecbbb16f8ab1060d93a532bad33bb"
+    },
+    {
+      "path": "canonical_dataset/reflectance_trimmed_stats.csv",
+      "sha256": "0196a456d523fa60eb4ed4d5aebf4a3d3d7baf40c0216009658d222a6e74a82e"
+    },
+    {
+      "path": "canonical_dataset/dose_reflectance_dad_correlations.json",
+      "sha256": "972cf038b2f409605904f9c0cba6eb3cfdbc07bca23474aad294a0c1cd972ce1"
+    },
+    {
+      "path": "canonical_dataset/README.json",
+      "sha256": "392a339fa9ed8b9ac00c26a3978679112ece717e1386561406da12d12b6c7415"
+    }
+  ]
+}

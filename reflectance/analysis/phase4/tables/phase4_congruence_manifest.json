@@ -1,0 +1,30 @@
+{
+  "cache_path": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase4/inputs/phase4_data_cache.pkl",
+  "metadata_path": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase4/inputs/phase4_matrix_manifest.json",
+  "plots_dir": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase4/plots",
+  "tables_dir": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase4/tables",
+  "settings": {
+    "permutations": 10000,
+    "random_seed": 42,
+    "max_components": 2
+  },
+  "outputs": {
+    "congruence_summary": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase4/tables/congruence_summary.csv",
+    "pca_scores": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase4/tables/pca_scores.csv",
+    "pca_loadings": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase4/tables/pca_loadings.csv",
+    "plots": [
+      "pca_scores_320_480nm_12Oclock_chrom.png",
+      "pca_scores_320_480nm_12Oclock_dad.png",
+      "pca_scores_320_480nm_12Oclock_latent.png",
+      "pca_scores_320_480nm_6Oclock_chrom.png",
+      "pca_scores_320_480nm_6Oclock_dad.png",
+      "pca_scores_320_480nm_6Oclock_latent.png",
+      "pca_scores_320_480nm_Delta_chrom.png",
+      "pca_scores_320_480nm_Delta_dad.png",
+      "pca_scores_320_480nm_Delta_latent.png",
+      "pca_scores_320_480nm_Sigma_chrom.png",
+      "pca_scores_320_480nm_Sigma_dad.png",
+      "pca_scores_320_480nm_Sigma_latent.png"
+    ]
+  }
+}

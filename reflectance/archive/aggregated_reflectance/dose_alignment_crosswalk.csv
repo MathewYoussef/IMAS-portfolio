@@ -1,0 +1,7 @@
+dose_id,source_dir,reflectance_samples,dad_sample_ids,crosswalk_level
+dose_6,treatment_1,"A,B,C,E,H","1D,1F,1G,1I,1J",dose
+dose_5,treatment_2,"A,C,D,F,H","2B,2E,2G,2I,2J",dose
+dose_4,treatment_3,"B,F,G,I,J","3A,3C,3D,3E,3H",dose
+dose_3,treatment_4,"C,D,E,I,J","4A,4B,4F,4G,4H",dose
+dose_2,treatment_5,"A,C,G,H,J","5B,5D,5E,5F,5I",dose
+dose_1,treatment_6,"A,B,E,G,I","6C,6D,6F,6H,6J",dose

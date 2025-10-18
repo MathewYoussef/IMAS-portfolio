@@ -1,0 +1,9 @@
+{
+  "treatments": 6,
+  "trim_fraction": 0.2,
+  "metrics": [
+    "dad_total_mg_per_gDW",
+    "dad_oxidized_mg_per_gDW",
+    "dad_reduced_mg_per_gDW"
+  ]
+}

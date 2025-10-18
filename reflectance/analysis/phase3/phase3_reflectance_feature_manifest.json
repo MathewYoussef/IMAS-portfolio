@@ -1,0 +1,27 @@
+{
+  "manifest_source": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase3/phase3_data_manifest.json",
+  "generated": [
+    {
+      "window": {
+        "lower_nm": 320.0,
+        "upper_nm": 480.0,
+        "step_nm": 0.5,
+        "point_count": 321
+      },
+      "angles_csv": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase3/phase3_reflectance_features_angles_320_480nm.csv",
+      "composites_csv": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase3/phase3_reflectance_features_composites_320_480nm.csv",
+      "feature_columns": [
+        "mean_reflectance",
+        "median_reflectance",
+        "min_reflectance",
+        "max_reflectance",
+        "range_reflectance",
+        "area_reflectance",
+        "mean_std",
+        "median_std",
+        "mean_mad",
+        "median_mad"
+      ]
+    }
+  ]
+}

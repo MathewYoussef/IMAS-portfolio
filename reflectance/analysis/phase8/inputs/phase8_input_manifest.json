@@ -1,0 +1,45 @@
+{
+  "phase7": {
+    "manifest": {
+      "path": "analysis/phase7/inputs.json",
+      "source": "analysis/phase7/inputs.json"
+    },
+    "modality_summary": {
+      "path": "analysis/phase7/modality_summary.csv",
+      "source": "analysis/phase7/build_summary.py"
+    },
+    "kind_modality_summary": {
+      "path": "analysis/phase7/kind_modality_summary.csv",
+      "source": "analysis/phase7/build_summary.py"
+    },
+    "baseline_summary": {
+      "path": "analysis/phase7/phase6_baseline_summary.csv",
+      "source": "analysis/phase6/tables/baseline_summary.csv"
+    },
+    "baseline_loocv": {
+      "path": "analysis/phase7/phase6_baseline_loocv.csv",
+      "source": "analysis/phase6/tables/baseline_summary.csv"
+    }
+  },
+  "notes": "Phase 8 consumes Phase 7 summaries for the consolidated report. Rerun analysis/phase7/build_summary.py if upstream data changes.",
+  "phase8": {
+    "comparison_overview": {
+      "path": "analysis/phase8/tables/comparison_overview.csv",
+      "source": "analysis/phase8/build_report_tables.py"
+    },
+    "plots": {
+      "loocv": {
+        "path": "analysis/phase8/plots/phase6_loocv.png",
+        "source": "analysis/phase8/generate_report_assets.py"
+      },
+      "dependence": {
+        "path": "analysis/phase8/plots/dependence_pvalues.png",
+        "source": "analysis/phase8/generate_report_assets.py"
+      }
+    },
+    "summary_markdown": {
+      "path": "analysis/phase8/report/summary.md",
+      "source": "analysis/phase8/generate_report_assets.py"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+window,modality,blocks_used,x_rank,y_rank,requested_joint_components,used_joint_components,exploratory_blocks_included,warning
+320_480nm,chrom,"['12Oclock', '6Oclock']",5,3,1,1,False,
+320_480nm,dad,"['12Oclock', '6Oclock']",5,3,1,1,False,
+320_480nm,latent,"['12Oclock', '6Oclock']",5,3,1,1,False,

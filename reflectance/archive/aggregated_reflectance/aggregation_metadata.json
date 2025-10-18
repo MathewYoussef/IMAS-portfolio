@@ -1,0 +1,39 @@
+{
+  "records": 60,
+  "wavelength_count": 601,
+  "trim_fraction": 0.1,
+  "dose_ids": [
+    "dose_1",
+    "dose_2",
+    "dose_3",
+    "dose_4",
+    "dose_5",
+    "dose_6"
+  ],
+  "uva_uvb_by_dose": {
+    "dose_1": {
+      "uva_mw_cm2": 0.0,
+      "uvb_mw_cm2": 0.0
+    },
+    "dose_2": {
+      "uva_mw_cm2": 0.647,
+      "uvb_mw_cm2": 0.246
+    },
+    "dose_3": {
+      "uva_mw_cm2": 1.095,
+      "uvb_mw_cm2": 0.338
+    },
+    "dose_4": {
+      "uva_mw_cm2": 1.692,
+      "uvb_mw_cm2": 0.584
+    },
+    "dose_5": {
+      "uva_mw_cm2": 2.488,
+      "uvb_mw_cm2": 0.768
+    },
+    "dose_6": {
+      "uva_mw_cm2": 3.185,
+      "uvb_mw_cm2": 0.707
+    }
+  }
+}

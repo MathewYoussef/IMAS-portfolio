@@ -1,0 +1,76 @@
+{
+  "canonical_spectra": {
+    "reflectance_stats": "canonical_dataset/dose_reflectance_stats.csv",
+    "reflectance_composites": "canonical_dataset/dose_reflectance_composites.csv",
+    "wavelength_grid": "denoised_full_run_staging/wavelength_grid.npy"
+  },
+  "crosswalks": {
+    "sample_mapping": "reflectance_sample_mapping.csv",
+    "concentration_crosswalk": "reflectance_concentration_crosswalk.csv"
+  },
+  "targets": {
+    "chromatogram": "canonical_dataset/dose_dad_concentrations.csv",
+    "dad": "canonical_dataset/dose_reflectance_dad_summary.csv",
+    "latent": "canonical_dataset/precision_weighted_concentrations_treatment.csv",
+    "dose_metadata": "canonical_dataset/dose_summary.csv"
+  },
+  "phase6_baseline": {
+    "band_features": "analysis/phase6/tables/band_features.csv",
+    "baseline_summary": "analysis/phase6/tables/baseline_summary.csv",
+    "baseline_predictions": "analysis/phase6/tables/baseline_predictions.csv"
+  },
+  "output_paths": {
+    "advanced_features": "analysis/phase9/tables/advanced_band_features.csv",
+    "feature_manifest": "analysis/phase9/tables/phase9_feature_manifest.json",
+    "model_summary": "analysis/phase9/tables/advanced_baseline_summary.csv",
+    "model_predictions": "analysis/phase9/tables/advanced_baseline_predictions.csv",
+    "model_manifest": "analysis/phase9/tables/advanced_baseline_manifest.json",
+    "plots_dir": "analysis/phase9/plots"
+  },
+  "modeling": {
+    "models": [
+      {
+        "name": "ridge",
+        "type": "ridge",
+        "alpha": 1.0
+      }
+    ],
+    "random_seed": 42
+  },
+  "feature_windows": [
+    {
+      "label": "320_480nm",
+      "lower_nm": 320.0,
+      "upper_nm": 480.0
+    },
+    {
+      "label": "360_410nm",
+      "lower_nm": 360.0,
+      "upper_nm": 410.0,
+      "fixed_peak_nm": 406.0
+    },
+    {
+      "label": "peak_band_auto",
+      "lower_nm": 0.0,
+      "upper_nm": 0.0,
+      "notes": "Placeholder to allow automated peak search across the full trimmed grid."
+    }
+  ],
+  "processing_defaults": {
+    "continuum_method": "linear_hull",
+    "smoothing": "none",
+    "derivative_spacing_nm": 0.5
+  },
+  "qa_checks": {
+    "profile_samples": "analysis/phase9/tables/example_band_profiles.csv",
+    "continuum_samples": "analysis/phase9/tables/example_continuum_removed.csv",
+    "metrics": [
+      "fwhm_nm",
+      "peak_wavelength_nm",
+      "peak_reflectance",
+      "auc",
+      "curvature_max"
+    ]
+  },
+  "notes": "Phase 9 prototypes advanced spectral descriptors. Update this manifest when inputs or processing parameters change so downstream phases can trace provenance."
+}

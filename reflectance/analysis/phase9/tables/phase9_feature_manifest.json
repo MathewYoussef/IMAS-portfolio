@@ -1,0 +1,74 @@
+{
+  "source_manifest": "analysis/phase9/inputs/phase9_input_manifest.json",
+  "generated_at": "2025-10-18T02:36:13.228530+00:00",
+  "record_count": 72,
+  "bands": [
+    "320_480nm",
+    "360_410nm",
+    "peak_band_auto"
+  ],
+  "kinds": [
+    "12Oclock",
+    "6Oclock",
+    "Delta",
+    "Sigma"
+  ],
+  "processing": {
+    "smoothing": "none",
+    "continuum_method": "linear_hull",
+    "derivative_spacing_nm": 0.5
+  },
+  "qa_artifacts": [
+    "analysis/phase9/tables/example_band_profiles.csv",
+    "analysis/phase9/tables/example_continuum_removed.csv"
+  ],
+  "metrics_summary": {
+    "peak_reflectance": {
+      "min": -0.0598942612608273,
+      "max": 0.55032346645991,
+      "median": 0.2084925261636575
+    },
+    "peak_wavelength_nm": {
+      "min": 300.0,
+      "max": 600.0,
+      "median": 448.5
+    },
+    "auc": {
+      "min": -28.96460401204724,
+      "max": 91.03567874121168,
+      "median": 14.897231454029672
+    },
+    "continuum_depth": {
+      "min": 0.00028282866502798813,
+      "max": 0.10803055549661322,
+      "median": 0.015823730504295516
+    },
+    "fwhm_nm": {
+      "min": 0.0,
+      "max": 274.5,
+      "median": 56.5
+    },
+    "max_curvature": {
+      "min": 0.002854675054550171,
+      "max": 0.09192131459712992,
+      "median": 0.01574820155898722
+    },
+    "fixed_peak_reflectance": {
+      "min": -0.0731890797615051,
+      "max": 0.2287871539592743,
+      "median": 0.1586799335976441
+    },
+    "fixed_peak_wavelength_nm": {
+      "min": 406.0,
+      "max": 406.0,
+      "median": 406.0
+    },
+    "fixed_continuum_depth": {
+      "min": -0.003474060893058878,
+      "max": 0.0017987084388733782,
+      "median": -0.0022411500414212387
+    }
+  },
+  "status": "complete",
+  "notes": "Advanced spectral descriptors computed with endpoint continuum removal applied to denoised spectra (no additional smoothing). Delta composites are difference spectra, so peak/area metrics may be negative."
+}

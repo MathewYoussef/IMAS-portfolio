@@ -1,0 +1,9 @@
+{
+  "treatments": 6,
+  "angles": [
+    "12Oclock",
+    "6Oclock"
+  ],
+  "wavelength_count": 601,
+  "trim_fraction": 0.2
+}

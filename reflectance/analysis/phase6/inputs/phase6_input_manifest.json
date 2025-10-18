@@ -1,0 +1,22 @@
+{
+  "phase4_cache": "analysis/phase4/inputs/phase4_data_cache.pkl",
+  "phase4_matrix_manifest": "analysis/phase4/inputs/phase4_matrix_manifest.json",
+  "phase4_dependence_manifest": "analysis/phase4/tables/phase4_dependence_manifest.json",
+  "phase4_congruence_manifest": "analysis/phase4/tables/phase4_congruence_manifest.json",
+  "phase5_multiblock_manifest": "analysis/phase5/tables/phase5_multiblock_manifest.json",
+  "canonical_reflectance_stats": "canonical_dataset/dose_reflectance_stats.csv",
+  "canonical_reflectance_composites": "canonical_dataset/dose_reflectance_composites.csv",
+  "wavelength_grid": "denoised_full_run_staging/wavelength_grid.npy",
+  "band_windows": [
+    {
+      "label": "360_410nm",
+      "lower_nm": 360.0,
+      "upper_nm": 410.0
+    }
+  ],
+  "default_models": [
+    "linear"
+  ],
+  "random_seed": 42,
+  "notes": "Phase 6 builds a minimal baseline using band features derived from Phase 4 reflectance matrices (e.g., 360–410 nm)."
+}

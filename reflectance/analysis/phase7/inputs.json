@@ -1,0 +1,70 @@
+{
+  "phase3": {
+    "correlations": {
+      "path": "analysis/phase7/phase3_correlations.json",
+      "source": "analysis/phase3/diagnostics/tables/correlations.csv"
+    },
+    "regression_summary": {
+      "path": "analysis/phase7/phase3_regression_summary.csv",
+      "source": "analysis/phase3/diagnostics/tables/regression_results.csv"
+    },
+    "dispersion": {
+      "path": "analysis/phase7/phase3_dispersion.json",
+      "source": "analysis/phase3/diagnostics/tables/dispersion_comparisons.csv"
+    }
+  },
+  "phase4": {
+    "congruence_summary": {
+      "path": "analysis/phase7/phase4_congruence_summary.csv",
+      "source": "analysis/phase4/tables/congruence_summary.csv"
+    },
+    "dependence_metrics": {
+      "path": "analysis/phase7/phase4_dependence_metrics.csv",
+      "source": "analysis/phase4/tables/dependence_metrics.csv"
+    },
+    "dcor_summary": {
+      "path": "analysis/phase7/phase4_dcor_summary.csv",
+      "source": "analysis/phase4/tables/dependence_metrics.csv"
+    }
+  },
+  "phase5": {
+    "multiblock_summary": {
+      "path": "analysis/phase7/phase5_multiblock_summary.csv",
+      "source": "analysis/phase5/tables/multiblock_summary.csv"
+    }
+  },
+  "phase6": {
+    "baseline_loocv": {
+      "path": "analysis/phase7/phase6_baseline_loocv.csv",
+      "source": "analysis/phase6/tables/baseline_summary.csv"
+    },
+    "baseline_summary": {
+      "path": "analysis/phase7/phase6_baseline_summary.csv",
+      "source": "analysis/phase6/tables/baseline_summary.csv"
+    },
+    "band_features": {
+      "path": "analysis/phase7/phase6_band_features.csv",
+      "source": "analysis/phase6/tables/band_features.csv"
+    }
+  },
+  "phase9": {
+    "advanced_baseline_summary": {
+      "path": "analysis/phase9/tables/advanced_baseline_summary.csv",
+      "source": "analysis/phase9/scripts/run_advanced_baseline.py"
+    },
+    "advanced_baseline_predictions": {
+      "path": "analysis/phase9/tables/advanced_baseline_predictions.csv",
+      "source": "analysis/phase9/scripts/run_advanced_baseline.py"
+    }
+  },
+  "phase7": {
+    "modality_summary": {
+      "path": "analysis/phase7/modality_summary.csv",
+      "source": "analysis/phase7/build_summary.py"
+    },
+    "kind_modality_summary": {
+      "path": "analysis/phase7/kind_modality_summary.csv",
+      "source": "analysis/phase7/build_summary.py"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "band_features": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase6/tables/band_features.csv",
+  "dose_summary": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/canonical_dataset/dose_level_canonical_summary.csv",
+  "summary_table": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase6/tables/baseline_summary.csv",
+  "predictions_table": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase6/tables/baseline_predictions.csv",
+  "plots_dir": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase6/plots",
+  "plots": [
+    "baseline_fit_chrom_total_12Oclock.png",
+    "baseline_fit_chrom_total_6Oclock.png",
+    "baseline_fit_chrom_total_Sigma.png",
+    "baseline_fit_chrom_total_Delta.png",
+    "baseline_fit_dad_total_12Oclock.png",
+    "baseline_fit_dad_total_6Oclock.png",
+    "baseline_fit_dad_total_Sigma.png",
+    "baseline_fit_dad_total_Delta.png",
+    "baseline_fit_latent_total_12Oclock.png",
+    "baseline_fit_latent_total_6Oclock.png",
+    "baseline_fit_latent_total_Sigma.png",
+    "baseline_fit_latent_total_Delta.png"
+  ],
+  "targets": [
+    "chrom_total",
+    "dad_total",
+    "latent_total"
+  ],
+  "features": [
+    "band_mean",
+    "band_median",
+    "band_min",
+    "band_max",
+    "band_range",
+    "band_area"
+  ],
+  "random_seed": 42,
+  "notes": "Linear regression baseline with leave-one-dose-out predictions."
+}

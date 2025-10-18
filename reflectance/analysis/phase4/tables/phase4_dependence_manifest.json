@@ -1,0 +1,14 @@
+{
+  "cache_path": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase4/inputs/phase4_data_cache.pkl",
+  "metadata_path": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase4/inputs/phase4_matrix_manifest.json",
+  "tables_dir": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase4/tables",
+  "plots_dir": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase4/plots",
+  "settings": {
+    "permutations": 10000,
+    "random_seed": 42
+  },
+  "outputs": {
+    "dependence_metrics": "/Users/mathewyoussef/Desktop/UPLC_DAD_Scytonemin_Concentrations/Reflectance/analysis/phase4/tables/dependence_metrics.csv",
+    "plots": []
+  }
+}

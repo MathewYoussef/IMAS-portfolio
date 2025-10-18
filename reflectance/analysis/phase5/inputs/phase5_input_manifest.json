@@ -1,0 +1,18 @@
+{
+  "phase4_cache": "analysis/phase4/inputs/phase4_data_cache.pkl",
+  "phase4_matrix_manifest": "analysis/phase4/inputs/phase4_matrix_manifest.json",
+  "phase4_congruence_manifest": "analysis/phase4/tables/phase4_congruence_manifest.json",
+  "phase4_dependence_manifest": "analysis/phase4/tables/phase4_dependence_manifest.json",
+  "reflectance_blocks": {
+    "primary": ["12Oclock", "6Oclock"],
+    "exploratory": ["Sigma", "Delta"]
+  },
+  "default_components": {
+    "joint": 1,
+    "specific_reflectance": 1,
+    "specific_concentration": 1
+  },
+  "default_permutations": 1000,
+  "random_seed": 42,
+  "notes": "Primary analyses treat 12Oclock and 6Oclock as separate blocks. Sigma/Delta combinations are exploratory and should be flagged accordingly."
+}
