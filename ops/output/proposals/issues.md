@@ -1,0 +1,4 @@
+- `./.DS_Store`: Remove the committed macOS metadata file and ensure `.gitignore` stays effective.
+- `reflectance/from_dose_concentration_chromo_dad_work_upstream/denoised_full_run_staging/`: De-duplicate against `reflectance/denoised_full_run_staging/` and migrate to archive once manifests are captured.
+- `reflectance/denoised_full_run_staging/`: Add manifest + checksum log before relocating to `Reflectance/data/processed/` to maintain traceability.
+- `projects/ga_smoother/requirements.txt`: Dependencies (pygad, scipy, pywavelets, etc.) are not present in `environment.yml`; harmonize environments ahead of extraction.
