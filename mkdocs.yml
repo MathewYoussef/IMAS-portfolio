@@ -1,0 +1,28 @@
+site_name: Scytonemin Thesis — Audit Hub
+site_description: Scaffold for the reviewer-facing thesis audit experience
+nav:
+  - Home: index.md
+  - Code & Data Availability: availability.md
+  - Claims:
+      - Overview: claims/index.md
+      - Template: claims/C-XXX.md
+  - Reflectance:
+      - Overview: reflectance/index.md
+  - Initial Calibration:
+      - Overview: initial_calibration/index.md
+  - Act of God — Mamba-SSM:
+      - Overview: mamba_ssm/index.md
+  - Supplements:
+      - Overview: supplements/index.md
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - def_list
+  - footnotes
