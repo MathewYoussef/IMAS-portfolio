@@ -1,0 +1,53 @@
+name: audit-agent1
+on:
+  pull_request:
+    types: [opened, synchronize, labeled, reopened]
+jobs:
+  audit:
+    if: contains(join(github.event.pull_request.labels.*.name, ','), 'A1')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Verify changed paths are scoped
+        run: |
+          BASE="${{ github.event.pull_request.base.ref }}"
+          HEAD="${{ github.event.pull_request.head.ref }}"
+          CHANGED=$(git diff --name-only origin/$BASE...origin/$HEAD || true)
+          echo "$CHANGED" | tee changed.txt
+          BAD=$(echo "$CHANGED" | grep -vE '^(ops/(output|logs)/|.github/|ops/auditors/|ops/agents/.*\.md$)' || true)
+          if [ -n "$BAD" ]; then
+            echo "Out-of-scope changes:"
+            echo "$BAD"
+            exit 1
+          fi
+      - name: Check required files exist
+        run: |
+          required=(
+            ops/output/inventory/tree.txt
+            ops/output/inventory/inventory.csv
+            ops/output/inventory/duplicates.csv
+            ops/output/inventory/large_files.csv
+            ops/output/proposals/mapping.csv
+            ops/output/proposals/restructure_proposal.md
+            ops/output/proposals/issues.md
+          )
+          for f in "${required[@]}"; do
+            [ -f "$f" ] || { echo "Missing $f"; exit 1; }
+          done
+      - name: Validate inventory CSV columns
+        run: |
+          python3 - <<'PY'
+import csv, sys
+req = {"path","type","size_bytes","sha1","last_commit","language","category","block_guess","action_suggestion","new_location","notes"}
+with open("ops/output/inventory/inventory.csv", newline="") as fh:
+    r = csv.reader(fh)
+    header = next(r)
+    cols = set(header)
+    miss = req - cols
+    if miss: 
+        print("Missing columns:", ", ".join(sorted(miss))); 
+        sys.exit(1)
+print("OK: columns present")
+PY

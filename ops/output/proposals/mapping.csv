@@ -1,0 +1,13 @@
+old_path,new_path,action,rationale,risk
+reflectance,Reflectance,move,Promote the reflectance workspace to a top-level block with canonical casing,All automation and docs referencing `reflectance/` must be updated in tandem.
+reflectance/denoised_full_run_staging,Reflectance/data/processed/denoised_full_run_staging,move,Stage-normalized NumPy arrays belong under the block's processed data area,Hard-coded file paths inside notebooks/scripts may break until rewired.
+reflectance/from_dose_concentration_chromo_dad_work_upstream/denoised_full_run_staging,archive/Reflectance/from_dose_concentration_chromo_dad_work_upstream,archive,Duplicate upstream drop should live in the archive pending deduplication with the canonical staging set,Losing provenance if deduplication removes necessary metadata; confirm manifests before archival.
+reflectance/canonical_dataset,Reflectance/data/final/canonical_dataset,move,Canonical concentration tables should sit in a `data/final` tier for reuse by downstream blocks,Regression tests that snapshot canonical tables must be updated to new path.
+reflectance/archive,archive/Reflectance,archive,Legacy equation drops move to the shared archive tree for clarity,Audit trail consumers need a migration plan to the new archive path.
+projects/ga_smoother,subprojects/ga_smoother,extract,GA smoother is an independent research tool that fits better under `subprojects/`,Coordinating dependency management across repos once extracted.
+imas_pipeline,hub/packages/imas_pipeline,move,Shared ingestion helpers belong in the lightweight hub for cross-block reuse,Imports like `from imas_pipeline` require namespace adjustments or editable installs.
+scripts,hub/scripts,move,Operational launchers should be grouped with hub utilities,Any automation invoking `scripts/*.sh` must adopt the new location.
+environment.yml,hub/config/environment.yml,move,Environment spec aligns with hub-level configuration management,Build/deploy tooling referencing the root env file needs updates.
+.DS_Store,,delete?,Mac OS metadata should be deleted and ignored going forward,Risk of reappearance unless `.gitignore` covers it; ensure developers prune local copies.
+projects,subprojects,move,Collect experimental tools under a dedicated `subprojects/` namespace to declutter the repo root,Relative imports or scripts referencing `./projects` must be updated in sync.
+README.md,hub/docs/README.md,move,Surface the portfolio overview inside the shared `hub/docs/` space for multi-agent access,Automation or onboarding docs linking to root README need their paths refreshed.
